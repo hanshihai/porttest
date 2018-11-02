@@ -1,5 +1,20 @@
 # Port Test
 
+### Linux tools
+
+Normally it can use the linux tools to check it:
+
+```
+nmap -p port hostaddress
+```
+or
+```
+nc -vz hostaddress port
+```
+
+While you can use this java app to check it when the host cannot to install linux shell tools from policy reason...
+
+
 ### compiler to classes
 ```
 javac -source 1.7 -target 1.7 .\com\util\*.java
