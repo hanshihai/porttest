@@ -17,12 +17,12 @@ While you can use this java app to check it when the host cannot to install linu
 
 ### compiler to classes
 ```
-javac -source 1.7 -target 1.7 .\com\util\*.java
+javac -source 1.7 -target 1.7 ./com/util/*.java
 ```
 
 ### jar the package
 ```
-jar.exe cvf portest.jar ./com/util/*.class
+jar cvf portest.jar ./com/util/*.class
 ```
 
 ### Server start
